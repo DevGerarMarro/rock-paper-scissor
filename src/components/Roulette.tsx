@@ -2,7 +2,7 @@ import { FC, useEffect, useState } from "react";
 import paper from '../assets/img/paper.png';
 import rock from '../assets/img/rock.png';
 import scissor from '../assets/img/scissors.png';
-import { ChoicesType, props } from "../types/types";
+import { props } from "../types/types";
 
 const options: string[] = [rock, paper, scissor];
 
